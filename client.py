@@ -4,7 +4,7 @@ from utils.RepeatedTimer import RepeatedTimer
 # standard Python
 sio = socketio.Client()
 
-@sio.eventz
+@sio.event
 def connect():
     print("I'm connected!")
 
