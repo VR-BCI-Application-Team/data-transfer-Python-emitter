@@ -21,4 +21,4 @@ timer = RepeatedTimer(0.01, foo)
 # timer.stop()
 
 
-sio.connect('http://localhost:8000')
+sio.connect('http://13.212.87.101:8000/')
